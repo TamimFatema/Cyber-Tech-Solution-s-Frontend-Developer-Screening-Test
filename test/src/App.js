@@ -1,10 +1,13 @@
-import logo from './logo.svg';
 import './index.css';
-
+import Nav from './components/nav';
+import Home from './components/Home';
+import Sidebar from './components/sidebar';
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <>
+      <Nav />
+      <Sidebar><Home /></Sidebar>
+
+    </>
   )
 }
