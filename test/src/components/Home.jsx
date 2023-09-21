@@ -3,7 +3,7 @@ import React from 'react'
 function Home() {
     return (
         <div className="flex w-full flex-col items-center p-10">
-            <h1 className="mb-5 font-black text-5xl">Main Component</h1>
+            <h1 className="mb-5 text-black text-[36px] font-semibold">Main Component</h1>
             <p className="mb-3">My country’s name is Bangladesh. Bangladesh is a very small country
                 huge population. It is a medium-developed country in South Asia. We have a very good and
                 progressing economy. It has an area of 147,570 square kilometers. But it has a population of
