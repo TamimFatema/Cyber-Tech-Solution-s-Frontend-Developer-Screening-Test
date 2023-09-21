@@ -14,6 +14,7 @@ function DeskView() {
                 Links.map((item) =>
                 (
                     <a className=' hover:text-blue-700' key={item.name} href={item.link}>{item.name}</a>
+
                 ))
             }
         </div>
